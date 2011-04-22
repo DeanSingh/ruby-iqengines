@@ -32,7 +32,7 @@ You can install the module by running the commands below.
 <br>
 ### IQEngines.Api(key, secret) ###
 
-A constructor that returns a handle to the iqengines API. `key` and `secret` is your API key/secret obtained from signing up for an account at [http://developer.iqengines.com/][3]. If these are left undefined, the module will look up their values from the `IQE_KEY` and `IQE_SECRET` from the shell environment.
+A constructor that returns a handle to the iqengines API. `key` and `secret` is your API key/secret obtained from signing up for an account at [http://developer.iqengines.com/][3]. If these are left undefined, the module will look up their values from the `IQE_KEY` and `IQE_SECRET` environment variables.
 
 <br>
 <br>
