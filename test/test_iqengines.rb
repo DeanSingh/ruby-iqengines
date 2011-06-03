@@ -11,7 +11,7 @@ class TestIQEngiensApi < Test::Unit::TestCase
       api = IQEngines.Api()
       response = api.wait_results(device_id=device_id)
       puts response
-      response = api.get_result(device_id=device_id)
+      response = api.get_result("c9c51eac57f6dea7474ba2cdb7cbbe4e4adbd894")
   end
 
 end
